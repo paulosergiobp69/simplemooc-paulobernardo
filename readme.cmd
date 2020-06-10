@@ -1,4 +1,7 @@
 site funcionando: http://simplemooc.wesleymends.com.br/
+
+meu site funcionando:  https://simplemooc-psbp.herokuapp.com/
+
 django-3.0.x: https://github.com/django/django/blob/stable/3.0.x/django/contrib/auth/models.py
 
 versao: django - 3.0.6
@@ -29,6 +32,51 @@ Heroku:
 	
 7. gerar o arquivo requirements.txt 
 (.venv) C:\code\SimpleMooc>pip freeze > requirements.txt  
+
+8.  gerar o git .gitignore
+*.pyc
+staticfiles
+
+9. iniciar o git
+(.venv) C:\code\SimpleMooc>git init
+
+10. adicionar os arquivos
+(.venv) C:\code\SimpleMooc>git add .     
+
+11. gravar os arquivos
+(.venv) C:\code\SimpleMooc>git commit -m "PRIMEIRO COMMIT"
+
+12. criar projeto no heroku
+(.venv) C:\code\SimpleMooc>heroku create
+
+no final o local da aplicacao: To https://git.heroku.com/fathomless-harbor-49389.git
+
+ https://fathomless-harbor-49389.herokuapp.com/
+ 
+ 
+13. apo renomar a aplicação no heroku: https://simplemooc-psbp.herokuapp.com/, para atualizar a maquina local seguir os passos.
+# aula 74
+passos:   
+    1. verificar como esta
+	(.venv) C:\code\SimpleMooc>git remote -v 
+	
+	2. remover do heroku
+	(.venv) C:\code\SimpleMooc>git remote rm heroku
+	
+	3. adiciona com o nome alterado
+	(.venv) C:\code\SimpleMooc>git remote add heroku git.heroku.com/simplemooc-paulobernardo.git
+	
+    1. verificar como ficou
+	(.venv) C:\code\SimpleMooc>git remote -v 
+	
+	git: https://git.heroku.com/simplemooc-paulobernardo.git
+	url: https://simplemooc-paulobernardo.herokuapp.com/
+	
+	
+	
+ 
+ 
+ 
 
 	
   
