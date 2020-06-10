@@ -46,6 +46,7 @@ staticfiles
 11. gravar os arquivos
 (.venv) C:\code\SimpleMooc>git commit -m "PRIMEIRO COMMIT"
 
+
 12. criar projeto no heroku
 (.venv) C:\code\SimpleMooc>heroku create
 
@@ -73,8 +74,16 @@ passos:
 	url: https://simplemooc-paulobernardo.herokuapp.com/
 	
 	
+	 https://git.heroku.com/simplemooc-paulobernardo.gi
+	
 	
  
+ ***** QUANDO PERDER A CONEXAO DO HEROKU COM O GIT 
+ ### https://adamatti.github.io/blog/git/2017/06/04/heroku.html
+ 
+ (.venv) C:\code\SimpleMooc>heroku git:remote -a simplemooc-paulobernardo
+ #depois fazer o deploy
+ (.venv) C:\code\SimpleMooc>git push heroku master
  
  
 
