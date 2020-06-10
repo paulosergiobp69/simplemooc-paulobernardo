@@ -86,6 +86,8 @@ passos:
  (.venv) C:\code\SimpleMooc>git push heroku master
  
  
+# Verificar as alterações realidas nos commit por usuario 
+    git shortlog
 
 	
   
