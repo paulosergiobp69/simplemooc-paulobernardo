@@ -89,15 +89,6 @@ passos:
 # Verificar as alterações realidas nos commit por usuario 
     git shortlog
 
-	
-  
-
-
-
-
-
-
-
 
 video 10 de python: https://www.youtube.com/watch?v=K0pVZmw_pJU
 video explicacao de url: https://www.youtube.com/watch?v=QvTyqta3OJo
@@ -236,6 +227,8 @@ __str__ : traducao de nomes de classes
 
 # fazendo deploy de aplicação no servidor gratuito: heroku
 	   
+
+# aula: 79 paginação e detalhes de forum
 
 
 

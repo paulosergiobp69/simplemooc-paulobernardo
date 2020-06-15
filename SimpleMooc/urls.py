@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', include('SimpleMooc.core.urls')),
     path('conta/', include('SimpleMooc.accounts.urls')),
+    path('forum/', include('SimpleMooc.forum.urls')),
     path('', include('SimpleMooc.courses.urls')),
     path('admin/', admin.site.urls),
 ]
